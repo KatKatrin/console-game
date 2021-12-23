@@ -1,0 +1,25 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
+    "jssha": "^3.2.0",
+    "keccak256": "^1.0.6",
+    "linebyline": "^1.3.0",
+    "readable-stream": "^3.6.0",
+    "readline": "^1.3.0",
+    "readline-promise": "^1.0.5",
+    "sha3": "^2.1.4",
+    "sha3-256": "^1.0.2"
+  }
+}
