@@ -4,7 +4,9 @@ import process from "node:process";
 
 const str = process.argv.slice(2)
 
-if ((str.length - 1) % 2 == 0){
+
+
+if ((str.length - 1) % 2 == 0 && str.length > 1){
   const inputValue = str;
   const computerChoise = Math.ceil(Math.random() * inputValue.length).toString();
   main(computerChoise, inputValue);
